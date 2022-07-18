@@ -1,0 +1,75 @@
+RUN	com.gatling.tests.SearchAndEditComputer	searchandeditcomputer	1657877795790	Search And With Ramp Up and User Roles	3.6.1
+USER	Admins	START	1657877797967
+USER	Users	START	1657877797961
+USER	Users	START	1657877798906
+USER	Admins	START	1657877799884
+USER	Users	START	1657877799906
+USER	Users	START	1657877800871
+USER	Users	START	1657877801871
+USER	Users	START	1657877802881
+USER	Admins	START	1657877802876
+USER	Users	START	1657877803877
+USER	Admins	START	1657877804872
+USER	Users	START	1657877804871
+USER	Users	START	1657877805870
+USER	Users	START	1657877806872
+REQUEST		Home	1657877798080	1657877808111	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877798080	1657877808111	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877798913	1657877808922	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877799887	1657877809894	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877799906	1657877809913	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877800873	1657877810886	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877801873	1657877811881	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877802887	1657877812906	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877802886	1657877812906	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877803879	1657877813886	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877804873	1657877814891	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877804873	1657877814891	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877805872	1657877815879	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657877806873	1657877816892	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877810331	1657877820339	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877810331	1657877820341	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877810930	1657877820939	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877811902	1657877821913	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877811918	1657877821921	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877812893	1657877822899	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877813892	1657877823900	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877814911	1657877824916	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877814911	1657877824915	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877815891	1657877825897	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877816896	1657877826902	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877816897	1657877826902	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877817889	1657877827896	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657877818898	1657877828916	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877823348	1657877833362	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877823348	1657877833363	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877823947	1657877833953	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877824921	1657877834932	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877824925	1657877834933	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877825903	1657877835908	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877826907	1657877836917	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877837454
+REQUEST		request_6	1657877827922	1657877837938	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877827922	1657877837938	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877837965
+REQUEST		request_6	1657877828917	1657877838924	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877838944
+REQUEST		request_6	1657877829911	1657877839919	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877839918
+REQUEST		request_6	1657877829911	1657877839918	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657877830907	1657877840915	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877840934
+REQUEST		request_6	1657877831924	1657877841932	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Users	END	1657877841948
+USER	Users	END	1657877842941
+USER	Users	END	1657877843929
+USER	Users	END	1657877844930
+USER	Users	END	1657877845936
+REQUEST		request_9	1657877837452	1657877847457	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_9	1657877838946	1657877848952	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Admins	END	1657877851469
+REQUEST		request_9	1657877841948	1657877851958	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Admins	END	1657877852960
+REQUEST		request_9	1657877843930	1657877853938	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	Admins	END	1657877855964
+USER	Admins	END	1657877857945

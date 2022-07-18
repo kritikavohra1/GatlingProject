@@ -1,0 +1,8 @@
+RUN	com.gatling.tests.RecordedSimulation1	recordedsimulation1	1657875188100	OrangeHRM Login Test	3.6.1
+USER	RecordedSimulation1	START	1657875190666
+REQUEST		Login Page	1657875190699	1657875192811	KO	bodyBytes.find.is([B@185bdca), found [B@2d572c26
+REQUEST		Login with valid creds	1657875214919	1657875215664	KO	status.find.in(200,201,202,203,204,205,206,207,208,209,304), found 400
+REQUEST		Logout	1657875217692	1657875218213	KO	bodyBytes.find.is([B@21543dc8), found [B@333f4f09
+REQUEST		request_4	1657875235239	1657875235503	OK	 
+REQUEST		request_4 Redirect 1	1657875235522	1657875236031	KO	bodyBytes.find.is([B@62b80e34), found [B@7912aad1
+USER	RecordedSimulation1	END	1657875236050

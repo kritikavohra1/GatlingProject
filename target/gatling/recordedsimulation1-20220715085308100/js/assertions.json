@@ -1,0 +1,10 @@
+{
+  "simulation": "com.gatling.tests.RecordedSimulation1",
+  "simulationId": "recordedsimulation1",
+  "start": 1657875188100,
+  "description": "OrangeHRM Login Test",
+  "scenarios": ["RecordedSimulation1"],
+  "assertions": [
+
+  ]
+}

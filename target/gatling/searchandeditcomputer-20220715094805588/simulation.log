@@ -1,0 +1,7 @@
+RUN	com.gatling.tests.SearchAndEditComputer	searchandeditcomputer	1657878485588	 	3.6.1
+USER	SearchAndEditComputer	START	1657878487753
+REQUEST		Home	1657878487805	1657878497824	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657878499908	1657878509937	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657878512970	1657878522980	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_9	1657878527010	1657878537018	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	SearchAndEditComputer	END	1657878541040

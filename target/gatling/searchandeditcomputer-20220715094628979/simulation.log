@@ -1,0 +1,19 @@
+RUN	com.gatling.tests.SearchAndEditComputer	searchandeditcomputer	1657878388979	 	3.6.1
+USER	SearchAndEditComputer	START	1657878390767
+USER	SearchAndEditComputer	START	1657878390767
+USER	SearchAndEditComputer	START	1657878390767
+REQUEST		Home	1657878390884	1657878400937	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657878390884	1657878400937	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		Home	1657878390884	1657878400938	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657878403150	1657878413165	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657878403150	1657878413167	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_3	1657878403150	1657878413168	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657878416174	1657878426192	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657878416173	1657878426192	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_6	1657878416174	1657878426187	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_9	1657878430267	1657878440278	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_9	1657878430267	1657878440278	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+REQUEST		request_9	1657878430267	1657878440278	KO	i.n.c.ConnectTimeoutException: connection timed out: computer-database.gatling.io/54.147.169.32:443
+USER	SearchAndEditComputer	END	1657878444372
+USER	SearchAndEditComputer	END	1657878444372
+USER	SearchAndEditComputer	END	1657878444374
